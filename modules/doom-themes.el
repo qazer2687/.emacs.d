@@ -1,3 +1,4 @@
+#+begin_src emacs-lisp
 (use-package doom-themes
   :config
   (setq doom-themes-enable-bold t
@@ -5,3 +6,4 @@
   (load-theme 'doom-gruvbox t)
   (doom-themes-visual-bell-config)
   (doom-themes-neotree-config))
+#+end_src

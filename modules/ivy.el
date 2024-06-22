@@ -1,3 +1,4 @@
+#+begin_src emacs-lisp
 (use-package ivy
   :diminish
   :bind (("C-s" . swiper)
@@ -15,3 +16,4 @@
     ("C-d" . ivy-reverse-i-search-kill))
   :init
   (ivy-mode))
+#+end_src

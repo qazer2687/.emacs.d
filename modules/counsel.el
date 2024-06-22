@@ -1,3 +1,4 @@
+#+begin_src emacs-lisp
 (use-package counsel
   :bind (("M-x" . counsel-M-x)
 	 ("C-x b" . counsel-ibuffer)
@@ -7,3 +8,4 @@
   :config (setq ivy-initial-inputs-alist nil)
   :init (counsel-mode))
 (global-set-key (kbd "C-M-j") 'counsel-switch-buffer)
+#+end_src
